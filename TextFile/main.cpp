@@ -1,10 +1,22 @@
-#include "TextFile.h"
 #include <QtWidgets/QApplication>
+#include <QCoreApplication>
+#include <qfile.h>
+#include <qdebug.h>
 
 int main(int argc, char *argv[])
 {
-	QApplication a(argc, argv);
-	TextFile w;
-	w.show();
+	QCoreApplication a(argc, argv);
+
+	QFile file("textFile1.txt");
+	if (file.open(QIODevice::ReadOnly))
+	{
+		char buffer[2048];
+		qint64 lineLen = file.readLine(buffer, sizeof(buffer));
+		if (lineLen != -1)
+		{
+			qDebug() << buffer;
+		}
+	}
+
 	return a.exec();
 }
