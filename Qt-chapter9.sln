@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fileview", "fileview\filevi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileInfo", "FileInfo\FileInfo.vcxproj", "{75FAC85F-C537-4AB3-9966-868183B69EAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fileWatcher", "fileWatcher\fileWatcher.vcxproj", "{7D056117-91E9-4041-B662-60DA619783A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,10 @@ Global
 		{75FAC85F-C537-4AB3-9966-868183B69EAF}.Debug|x64.Build.0 = Debug|x64
 		{75FAC85F-C537-4AB3-9966-868183B69EAF}.Release|x64.ActiveCfg = Release|x64
 		{75FAC85F-C537-4AB3-9966-868183B69EAF}.Release|x64.Build.0 = Release|x64
+		{7D056117-91E9-4041-B662-60DA619783A5}.Debug|x64.ActiveCfg = Debug|x64
+		{7D056117-91E9-4041-B662-60DA619783A5}.Debug|x64.Build.0 = Debug|x64
+		{7D056117-91E9-4041-B662-60DA619783A5}.Release|x64.ActiveCfg = Release|x64
+		{7D056117-91E9-4041-B662-60DA619783A5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

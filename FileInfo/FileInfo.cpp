@@ -86,8 +86,9 @@ FileInfo::~FileInfo()
 //打开文件
 void FileInfo::slotFile()
 {
+	//获取打开的文件名及路径
 	QString fileName = QFileDialog::getOpenFileName(this, "打开", "/", "files (*)");
-	fileNameLineEdit->setText(fileName);
+	fileNameLineEdit->setText(fileName);	//显示在LineEdit中
 }
 
 //获取文件信息
